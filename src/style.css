@@ -13,3 +13,7 @@
 .message {
     word-wrap: normal;
 }
+
+[data-secure-field] iframe {
+    
+}
