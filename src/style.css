@@ -15,5 +15,11 @@
 }
 
 [data-secure-field] iframe {
-    
+    border: 1px solid #dfdfdf;
+    height: inehrit;
+    vertical-align: middle;
+    width: inherit;
+    position: relative;
+    line-height: 30px;
+    height: 30px;
 }
