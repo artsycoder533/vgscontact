@@ -9,15 +9,15 @@
 </head>
 <body>
     <div class="form">
-        <form name="test-form" method="POST" class="contact" netlify>
+        <form name="test-form" method="POST" class="contact" netlify secure>
             <p>
-                <label for="name">Name: <input type="text" name="name" id="" /></label>
+                <label for="name">Name: <input type="text" name="name" id="" data-secure-field/></label>
             </p>
             <p>
-                <label for="email">Email: <input type="email" name="email" id="" /></label>
+                <label for="email">Email: <input type="email" name="email" id="" data-secure-field/></label>
             </p>
             <p>
-                <label for="message">Message: <input type="text" name="message" id="" class="message" ></label>
+                <label for="message">Message: <input type="text" name="message" id="" class="message" data-secure-field /></label>
             </p>
             <p>
                 <button type="submit">Send Message</button>
